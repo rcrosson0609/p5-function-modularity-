@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Calculator</title>
+    </head>
+    <body>
+        <h1 id="title">My Calculator</h1>   
+        <div id="keypad">
+            <table border="2"> 
+                <tr>
+                    <td colspan="4" id="display-bar" height="20px">###############</td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="9" onclick="display(9)"/></td>
+                    <td><input type="button" value="8" onclick="display(8)"/></td>
+                    <td><input type="button" value="7" onclick="display(7)"/></td>
+                    <td><input type="button" value="/" onclick="display('/')"/></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="6" onclick=""/></td>
+                    <td><input type="button" value="5" onclick=""/></td>
+                    <td><input type="button" value="4" onclick=""/></td>
+                    <td><input type="button" value="*" onclick=""/></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="3" onclick=""/></td>
+                    <td><input type="button" value="2" onclick=""/></td>
+                    <td><input type="button" value="1" onclick=""/></td>
+                    <td><input type="button" value="-" onclick=""/></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="0" onclick=""/></td>
+                    <td><input type="button" value="c" onclick="cleardisplay()"/></td>
+                    <td><input type="button" value="=" onclick=""/></td>
+                    <td><input type="button" value="+" onclick=""/></td>
+                </tr>                
+            </table>
+        </div>
+    </body>
+    <script type="text/javascript" src="script.js"></script>
+</html>
